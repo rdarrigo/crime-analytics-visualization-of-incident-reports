@@ -25,7 +25,7 @@ I then plotted the frequency of each of these incidents, grouped by their summar
 Looking at the below visualisation, it was evident that some crimes were more likely to occur at night (6pm - 2am), some were more likely during the day than at night (6am-6pm) and all crimes were less likely to occur in the early hours of the morning (2am-6am)
 
 ![Line graph showing top 10 reported crimes and the frequency by the time of day]
-(https://raw.githubusercontent.com/rdarrigo/crime-analytics-visualization-of-incident-reports/master/assault-carprowl-vehicletheft-propertydamage.png)
+(https://raw.githubusercontent.com/rdarrigo/crime-analytics-visualization-of-incident-reports/master/top-10-crimes-by-time-of-day.png)
 
 ## Car Prowl, Vehicle Theft incidents occuring mostly at night ##
 
@@ -40,8 +40,8 @@ In addition a black plot line was added to the visualisation, showing the trend 
 
 It is clear in the below visualisation that Car Prowl and Vehicle Theft incidents are highly likely to occur in the evening. Assault & Property Damage were also more likely to occur in the evening, but this was not as prevalent as Car Prowl and Vehicle Theft. The black trend line also supports this opinion, with more occurances in the evening hours.
 
-![Frequenct of Assault, Car Prowl, Vehicle Theft, Property Damage incidents by Hour of Day]
-(https://raw.githubusercontent.com/rdarrigo/crime-analytics-visualization-of-incident-reports/master/crimes-prevalent-in-the-evening.png)
+![Frequency of Assault, Car Prowl, Vehicle Theft, Property Damage incidents by Hour of Day]
+(https://raw.githubusercontent.com/rdarrigo/crime-analytics-visualization-of-incident-reports/master/assault-carprowl-vehicletheft-propertydamage.png)
 
 ## Disturbance, Stolen Property & Threats incidents as likely to occur during the day as they are at night ##.
 
