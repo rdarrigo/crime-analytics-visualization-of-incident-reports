@@ -22,21 +22,26 @@ Firstly, I decided to focus on the 10 most reported crimes in the data. I subset
 
 I then plotted the frequency of each of these incidents, grouped by their summarised offence description (Summarized.Offense.Description), by the hour of the day at which the incident occurred (Occurred.Date.or.Date.Range.Start). The points in the visualisation represent actual values, the plot lines for each Summarized Offence Description has been smoothed to emphasise the trend / fit over 24 hours.
 
-Looking at the below visualisation, it was evident that some crimes were more likely to occur at night (6pm - 2am), some were more likely during the day than at night (6am-6pm) and all crimes were less likely to occur in the early hours of the morning (2am-6am)
+Looking at the below visualisation, it was evident that:
+
+* some crimes were more likely to occur in the night hours (6pm - 2am) that during the day (6am - 6pm)
+* some crimes were almost equally likely to occur during the day (6am - 6pm) than at night (6am - 6pm)
+* some crimes were more likely to occur during the day (6am - 6pm) than in the night hours (6pm - 2am); and
+* fairly consistently, the frequency of all crimes reduced in the early hours of the morning (2am-6am)
 
 ![Line graph showing top 10 reported crimes and the frequency by the time of day]
 (https://raw.githubusercontent.com/rdarrigo/crime-analytics-visualization-of-incident-reports/master/top-10-crimes-by-time-of-day.png)
 
-## Car Prowl, Vehicle Theft incidents occuring mostly at night ##
+## 1. Car Prowl, Vehicle Theft incidents occuring mostly at night ##
 
-I then selected the below incidents that looked to have more incidents occur at night. The same visualisation was then used to plot the frequency incidents across the hour of day.
+I then selected the below incidents that looked to have more incidents occur at night. 
 
 * Assault
 * Car Prowl
 * Vehicle Theft; and
 * Property Damage
 
-In addition a black plot line was added to the visualisation, showing the trend of predicted volumes across all three of these summarrised offence description at each hour of the day, along with the respective confidence interval.
+A similar visualisation was then used to plot the frequency of these incidents across the hour of day. Different plot point shapes were used to provide clarity of the incident type. In addition a black plot line was added to the visualisation, showing the trend of predicted volumes across all three of these summarrised offence description at each hour of the day, along with the respective confidence interval.
 
 It is clear in the below visualisation that Car Prowl and Vehicle Theft incidents are highly likely to occur in the evening. Assault & Property Damage were also more likely to occur in the evening, but this was not as prevalent as Car Prowl and Vehicle Theft. The black trend line also supports this opinion, with more occurances in the evening hours.
 
