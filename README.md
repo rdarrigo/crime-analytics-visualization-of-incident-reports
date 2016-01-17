@@ -18,29 +18,54 @@ Firstly, I decided to focus on the 10 most reported crimes in the data. I subset
 | STOLEN PROPERTY   | 1136 |
 [Top 10 reported crimes by volume in Seattle Summer 2014 dataset]
 
-I then plotted the frequency of each of these incidents by their summarised offence description (Summarized.Offense.Description), by the hour of the day at which the incident occurred (Occurred.Date.or.Date.Range.Start). The points in the visualisation represent actual values, the plot line for each Summarized Offence Description has been smoothed to emphasise the trend / fit over 24 hours.
+## Plotting the frequency of occurence by the incident hour of day ##
+
+I then plotted the frequency of each of these incidents, grouped by their summarised offence description (Summarized.Offense.Description), by the hour of the day at which the incident occurred (Occurred.Date.or.Date.Range.Start). The points in the visualisation represent actual values, the plot lines for each Summarized Offence Description has been smoothed to emphasise the trend / fit over 24 hours.
+
+Looking at the below visualisation, it was evident that some crimes were more likely to occur at night (6pm - 2am), some were more likely during the day than at night (6am-6pm) and all crimes were less likely to occur in the early hours of the morning (2am-6am)
 
 ![Line graph showing top 10 reported crimes and the frequency by the time of day]
-(https://raw.githubusercontent.com/rdarrigo/crime-analytics-visualization-of-incident-reports/master/top-10-crimes-by-time-of-day.png)
+(https://raw.githubusercontent.com/rdarrigo/crime-analytics-visualization-of-incident-reports/master/assault-carprowl-vehicletheft-propertydamage.png)
 
-Looking at this visualisation, it was evident that some crimes were more likely to occur in the evening (6pm - 2am), some were more likely during the day than at night (6am-6pm) and all crimes were less likely to occur in the early hours of the morning (2am-6am)
+## Car Prowl, Vehicle Theft incidents occuring mostly at night ##
 
-## Car Prowl, Vehicle Theft ncidents occuring mostly at night ##
+I then selected the below incidents that looked to have more incidents occur at night. The same visualisation was then used to plot the frequency incidents across the hour of day.
 
-The same visualisation was then used to only plot the frequency of Car Prowl, Vehicle Theft and Property Damage. In addition a black plot line was added to the visualisation, showing the trend of predicted volumes across all three of these summarrised offence description at each hour of the day, along with the respective confidence interval. The black trend line along with each data point show that these crimes are most likely to occur in the evening.
+* Assault
+* Car Prowl
+* Vehicle Theft; and
+* Property Damage
 
-This was most prevalent in Car Prowl and Vehicle Theft.
+In addition a black plot line was added to the visualisation, showing the trend of predicted volumes across all three of these summarrised offence description at each hour of the day, along with the respective confidence interval.
 
-![Line graph showing crimes most likely to occur in the evening]
+It is clear in the below visualisation that Car Prowl and Vehicle Theft incidents are highly likely to occur in the evening. Assault & Property Damage were also more likely to occur in the evening, but this was not as prevalent as Car Prowl and Vehicle Theft. The black trend line also supports this opinion, with more occurances in the evening hours.
+
+![Frequenct of Assault, Car Prowl, Vehicle Theft, Property Damage incidents by Hour of Day]
 (https://raw.githubusercontent.com/rdarrigo/crime-analytics-visualization-of-incident-reports/master/crimes-prevalent-in-the-evening.png)
 
-## 
+## Disturbance, Stolen Property & Threats incidents as likely to occur during the day as they are at night ##.
 
-The same visualiation was then used to plot the frequenct of Other Property, Burglary, Assault, Fraud, Disturbance, Threats and Stolen Property. Plotting the remaining crimes showed the trend of these crimes more likely to either: 
+The same visualiation was then used to plot the frequency of incidents of: 
 
-- occur more likley during the day, than the evening.
-- occur consistently throughout the day and evening.
+* Disturbance
+* Stolen Property
+* Threats
 
+This visualisation shows that for these crimes, they are almost equally likley to occur during the day than at night.
 
-![Line graph showing crimes most likely to occur in the evening]
+![Frequency of Disturbance, Stolen Property & Threats incidents by Hour of Day]
 (https://raw.githubusercontent.com/rdarrigo/crime-analytics-visualization-of-incident-reports/master/disturbance-stolenproperty-threats.png)
+
+
+## Burglary, Fraud & Other Property incidents spikes at around midday and midnight##
+
+Again, the same visualisation was used to plot the frequency of incidents for:
+
+* Burgalry
+* Fraud
+* Other Property
+
+This visualisation made it clear that these incidents were more likely to occur during the day than at night, but it was also evident that these  
+
+![Frequency of Burglary, Fraud & Other Property incidents by Hour of Day]
+(https://raw.githubusercontent.com/rdarrigo/crime-analytics-visualization-of-incident-reports/master/burglary-fraud-otherproperty.png)
