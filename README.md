@@ -18,7 +18,7 @@ Firstly, I decided to focus on the 10 most reported crimes in the data. I subset
 | STOLEN PROPERTY   | 1136 |
 [Top 10 reported crimes by volume in Seattle Summer 2014 dataset]
 
-## Plotting the frequency of occurence by the incident hour of day ##
+## Plotting the frequency of occurence by the incident hour of day
 
 I then plotted the frequency of each of these incidents, grouped by their summarised offence description (Summarized.Offense.Description), by the hour of the day at which the incident occurred (Occurred.Date.or.Date.Range.Start). The points in the visualisation represent actual values, the plot lines for each Summarized Offence Description has been smoothed to emphasise the trend / fit over 24 hours.
 
@@ -32,7 +32,7 @@ Looking at the below visualisation, it was evident that:
 ![Line graph showing top 10 reported crimes and the frequency by the time of day]
 (https://raw.githubusercontent.com/rdarrigo/crime-analytics-visualization-of-incident-reports/master/top-10-crimes-by-time-of-day.png)
 
-## 1. Car Prowl, Vehicle Theft incidents occuring mostly at night ##
+## 1. Car Prowl, Vehicle Theft incidents occuring mostly at night
 
 I then selected the below incidents that looked to have more incidents occur at night. 
 
@@ -48,7 +48,7 @@ It is clear in the below visualisation that Car Prowl and Vehicle Theft incident
 ![Frequency of Assault, Car Prowl, Vehicle Theft, Property Damage incidents by Hour of Day]
 (https://raw.githubusercontent.com/rdarrigo/crime-analytics-visualization-of-incident-reports/master/assault-carprowl-vehicletheft-propertydamage.png)
 
-## Disturbance, Stolen Property & Threats incidents as likely to occur during the day as they are at night ##.
+## Disturbance, Stolen Property & Threats incidents as likely to occur during the day as they are at night.
 
 The same visualiation was then used to plot the frequency of incidents of: 
 
@@ -70,7 +70,7 @@ Again, the same visualisation was used to plot the frequency of incidents for:
 * Fraud
 * Other Property
 
-This visualisation made it clear that these incidents were more likely to occur during the day than at night, but it was also evident that these  
+This visualisation made it clear that these incidents were more likely to occur during the day than at night.
 
 ![Frequency of Burglary, Fraud & Other Property incidents by Hour of Day]
 (https://raw.githubusercontent.com/rdarrigo/crime-analytics-visualization-of-incident-reports/master/burglary-fraud-otherproperty.png)
